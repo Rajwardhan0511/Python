@@ -1,5 +1,5 @@
-
-def outer():    
+def outer():
+    print("World")
     def inner():
         print("Hello")
     return inner
